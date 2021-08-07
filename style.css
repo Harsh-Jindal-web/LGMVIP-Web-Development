@@ -97,6 +97,32 @@ body{
 }
 
 
+/*video projects*/
+  .video-project{
+    background-color: olivedrab;
+    color:white;
+    padding-top: 1px;
+    padding-bottom: 5%;
+  }
+  .marquee-wrapper{
+    overflow: hidden;
+  }
+  .marquee{
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: translateX();
+  }
+
+  @keyframes marquee{
+  from {transform: translateX(0);}
+  to {transform: translateX(-100%);}
+  }
+/*video projects*/
+
 /* ==== Blogs section ==== */
 
 .events .card {

@@ -17,7 +17,7 @@ The goal of this project was to create a simple yet visually appealing single-pa
 
 - `index.html`: HTML file containing the structure of the website
 - `styles.css`: CSS file containing styles for the website
-- `script.js`: JavaScript file containing interactive functionality
+- `main.js`: JavaScript file containing interactive functionality
 - `imgs/`: Directory containing images used in the website
 
 ## 🤔 How to contribute
